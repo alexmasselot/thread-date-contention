@@ -16,4 +16,4 @@ The goal is to measure the efficiency of "old fashion" java multi threading
   
     # first argument is the produced tsv file
     # second arguments is log_2 size of the data array
-    java target/thread-contention-0.0.2-SNAPSHOT.jar /tmp/measures.txt 16
+    java -jar target/thread-contention-0.0.2-SNAPSHOT.jar /tmp/measures.txt 16
